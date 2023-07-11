@@ -26,33 +26,23 @@ Here are some example commands you can run:
 
 Fetch all posts:
 
-    ```
-    python main.py list
-    ```
+`python main.py list`
 
 Fetch a single post by ID:
 
-    ```
-    python main.py list --id 1
-    ```
+`python main.py list --id 1`
 
 Create a new post:
 
-    ```
-    python main.py create --title "test" --body "this is a test" --user_id 1
-    ```
+`python main.py create --title "test" --body "this is a test" --user_id 1`
 
 Update an existing post:
 
-    ```
-    python main.py update --id 1 --title "updated title" --body "updated body" --user_id 1
-    ```
+`python main.py update --id 1 --title "updated title" --body "updated body" --user_id 1`
 
 Delete a post:
 
-    ```
-    python main.py delete --id 1
-    ```
+`python main.py delete --id 1`
 
 ## Tests
 
